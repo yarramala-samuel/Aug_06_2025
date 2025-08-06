@@ -1,0 +1,4 @@
+Filename | Line Count | Word Count
+-----------------------------------
+example1.txt | Lines: 4 | Words: 18
+example2.txt | Lines: 4 | Words: 21

@@ -1,0 +1,5 @@
+Line one with temp.
+Line two is clean.
+# This line is a comment and should be ignored
+Temp is just a temp word here.
+One more line to end it.
