@@ -18,7 +18,7 @@ fi
 echo " Checking disk usage on root partition..."
 DISK_USAGE=$(df / | awk 'NR==2 {print $5}' | sed 's/%//')
 if [ "$DISK_USAGE" -gt 80 ]; then
-    echo "⚠️ WARNING: Disk usage on / is above 80% ($DISK_USAGE%)"
+    echo "WARNING: Disk usage on / is above 80% ($DISK_USAGE%)"
 fi
 # 4. Displaying Summary- combining all the 3 Questions 
 TOTAL_PROCESSES=$(ps aux | wc -l)
@@ -30,3 +30,4 @@ echo "Processes using >30% memory: $HIGH_MEM_COUNT"
 echo "Disk usage on /: $DISK_USAGE%"
 
 echo " Check complete."
+
